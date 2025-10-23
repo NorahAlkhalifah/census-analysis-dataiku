@@ -50,22 +50,25 @@ The target variable, *class of worker*, is explored to understand feature relati
 ---
 
 ## 📂 Project Structure
+
+```bash
 census-analysis/
 ├─ README.md
 ├─ requirements.txt
 ├─ notebooks/
-│ ├─ 00_data_overview.ipynb
-│ ├─ 01_data_cleaning_feature_usability.ipynb
-│ ├─ 02_exploratory_analysis.ipynb
+│  ├─ 00_data_overview.ipynb
+│  ├─ 01_data_cleaning_feature_usability.ipynb
+│  └─ 02_exploratory_analysis.ipynb
 ├─ scripts/
-│ └─ utils.py
+│  └─ utils.py
 ├─ data/
-│ ├─ raw/
-│ └─ processed/
+│  ├─ raw/
+│  └─ processed/
 ├─ outputs/
-│ ├─ charts/
-│ ├─ tables/
-│ └─ report/
+│  ├─ charts/
+│  ├─ tables/
+│  └─ report/
 └─ presentation/
-└─ slides.pptx
+   └─ slides.pptx
+
 
